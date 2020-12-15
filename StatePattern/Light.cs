@@ -12,6 +12,7 @@ namespace StatePattern
     public class Light
     {
         private LightState state;
+
         public Light(LightState state)
         {
             this.state = state;
